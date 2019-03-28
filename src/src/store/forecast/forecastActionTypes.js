@@ -1,0 +1,2 @@
+export const GET_FORECAST = 'GET_FORECAST';
+export const SET_CURRENT_CITY_NAME = 'SET_CURRENT_CITY_NAME';

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" version="1.1" viewBox="0 0 16.0002 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>Gnome Symbolic Icon Theme</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<title>Gnome Symbolic Icon Theme</title>
+<g transform="translate(-201,-277)" fill="#bebebe">
+<path d="m209 279.99c-2.7496 0-5.0063 2.2568-5.0063 5.0063s2.2567 5.0063 5.0063 5.0063 5.0063-2.2568 5.0063-5.0063-2.2567-5.0063-5.0063-5.0063z" color="#bebebe" enable-background="new" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+<path d="m215 284c0.13761 0.71253 0.11183 1.3706 0 2l2-1z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m203 284c-0.13761 0.71253-0.11183 1.3706 0 2l-2-1z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m210 291c-0.71251 0.1376-1.3706 0.11183-2 0l1 2z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m210 279c-0.71253-0.1376-1.3706-0.11184-2 0l0.99999-2z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m205.46 289.95c-0.60112-0.40652-1.0482-0.89009-1.4142-1.4142l-0.7071 2.1213z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m213.95 281.46c-0.40654-0.60112-0.89009-1.0482-1.4142-1.4142l2.1213-0.70711z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m204.05 281.46c0.40651-0.60112 0.89009-1.0482 1.4142-1.4142l-2.1213-0.7071z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+<path d="m212.54 289.95c0.60113-0.40655 1.0482-0.89009 1.4142-1.4142l0.70711 2.1213z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;paint-order:normal"/>
+</g>
+</svg>
