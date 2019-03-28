@@ -143,7 +143,7 @@ const ForecastCard = ({
   return (
     <RootContainer>
       <Header>
-        {(day && (day !== getLocaleDateString())) && <Title>{day}</Title>}
+        {(day && (day !== getLocaleDateString(dt_txt))) && <Title>{day}</Title>}
         <SubTitle>{hours}</SubTitle>
       </Header>
       <DataContainer>
