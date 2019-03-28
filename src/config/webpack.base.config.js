@@ -15,10 +15,6 @@ module.exports = (env = defaultEnv) => merge([{
         loader: 'babel-loader',
         options: { presets: ['@babel/env'] },
       },
-      // {
-      //   test: /\.svg$/,
-      //   loader: 'svg-inline-loader',
-      // },
     ],
   },
   resolve: {
