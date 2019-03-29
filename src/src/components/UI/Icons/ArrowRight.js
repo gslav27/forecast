@@ -2,15 +2,16 @@ import React from 'react';
 import { IconsPropTypes } from '_Utils_/types/interfaces';
 import { IconsDefaultProps } from '_Utils_/types/defaultData';
 
-const Close = props => (
+const ArrowRight = props => (
   <svg
+    className={props.className}
     xmlns='http://www.w3.org/2000/svg'
     width={props.width}
     height={props.height}
     viewBox={props.viewBox}
   >
     <path
-      d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'
+      d='M16.01 11H4v2h12.01v3L20 12l-3.99-4z'
       fill={props.nativeColor}
     />
     <path
@@ -20,7 +21,7 @@ const Close = props => (
   </svg>
 );
 
-Close.propTypes = IconsPropTypes;
-Close.defaultProps = IconsDefaultProps;
+ArrowRight.propTypes = IconsPropTypes;
+ArrowRight.defaultProps = IconsDefaultProps;
 
-export default Close;
+export default ArrowRight;

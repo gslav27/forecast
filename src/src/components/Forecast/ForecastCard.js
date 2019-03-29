@@ -4,8 +4,11 @@ import SVG from 'react-inlinesvg';
 
 import { routes } from '_Utils_/constants/constants';
 import { forecastInterface } from '_Utils_/types/interfaces';
+import themes from '_Utils_/themes/themes';
 import { getLocaleDateString } from '_Utils_/getters/getLocaleDateString';
 import { getRoundedDegree } from '_Utils_/getters/getRoundedDegree';
+
+import ArrowRight from '_Ui_/Icons/ArrowRight';
 
 
 
@@ -61,9 +64,9 @@ const DataContainer = styled.div`
 const MainDataGroup = styled.div`
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   ${({ theme }) => theme.mediaMixins.width.notXs(`
     padding: 10px 0px;
   `)}
@@ -99,12 +102,16 @@ const Text = styled.span`
   };
 `;
 
-const TextWithArrow = styled(Text)`
-  ::before {
-    content: '↗';
-    display: inline-block;
-    transform: rotate(${({ deg }) => ((deg || 0) - 45)}deg);
-  }
+const TextWithIconContainer = styled(Text)`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+`;
+
+const ArrowIconContainer = styled.span`
+  height: 16px;
+  width: 16px;
+  transform: rotate(${({ deg }) => ((deg || 0) - 90)}deg);
 `;
 
 const Description = styled.span`
@@ -171,9 +178,16 @@ const ForecastCard = ({
           </DataItem>
           <DataItem>
             <Description>wind:</Description>
-            <TextWithArrow deg={getRoundedDegree(wind.deg) - 180}>
+            <TextWithIconContainer>
+              <ArrowIconContainer deg={getRoundedDegree(wind.deg) - 180}>
+                <ArrowRight
+                  nativeColor={themes.palette.secondary.main}
+                  width='100%'
+                  height='100%'
+                />
+              </ArrowIconContainer>
               {Math.round(wind.speed * 10) / 10} m/s
-            </TextWithArrow>
+            </TextWithIconContainer>
           </DataItem>
         </AdditionalDataGroup>
       </DataContainer>
